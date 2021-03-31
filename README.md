@@ -8,10 +8,10 @@ Para esto, proponemos hacer un cambio de nuestra vieja moneda controlada por el 
 Si quieres saber más quedate atento a este proyecto y sus redes sociales.
 
 
-##¿Que respaldada nuestro token?
+## ¿Que respaldada nuestro token?
 
 En un aset de diferentes criptomonedas, buscando tener nuestro activo diversificado y asi obtener un incremento de intereses controlados y asi ir aumentando el valor adquisitivo de nuestro token.
 
-##¿Como redimir mi token?
+## ¿Como redimir mi token?
 
 Puedes redimirlo por cualquiera de las criptomonedas que haya en la plataforma disponible, o tambien puedes intercambiarlo por mondea local en el sistema P2P.
