@@ -7,11 +7,11 @@ body {
 	font-weight: 400;
 	font-size: $font-size-base;
 }
-::-moz-selection { 
+::-moz-selection {
 	background: $black;
 	color: $white;
 }
-::selection { 
+::selection {
 	background: $black;
 	color: $white;
 }
@@ -74,7 +74,7 @@ body {
 	font-size: 16px;
 	border-radius: 30px;
 	padding: 10px 30px;
-	
+
 	&:hover, &:active, &:focus {
 		outline: none;
 		box-shadow: none!important;
@@ -95,7 +95,7 @@ body {
 			}
 		}
 	}
-	
+
 }
 
 .line-height-1 {
@@ -119,7 +119,7 @@ body {
 .site-section {
 	padding: 2.5em 0;
 	@include media-breakpoint-up(md) {
-		padding: 8em 0;
+		padding: 9em 0;
 	}
 
 	&.site-section-sm {
@@ -143,7 +143,7 @@ body {
 	padding: 4em 0;
 	background: $dark;
 	@include media-breakpoint-up(md) {
-		padding: 8em 0;	
+		padding: 8em 0;
 	}
 	.border-top {
 		border-top: 1px solid rgba(255,255,255,.1)!important;
@@ -258,7 +258,7 @@ body {
 	position: relative;
 	transition: .3s all ease-in-out;
 	> span {
-		font-size: 50px;	
+		font-size: 50px;
 		position: absolute;
 		top: 50%;
 		left: 50%;
@@ -315,7 +315,7 @@ body {
 		&:before {
 			color: $gray-300;
 		}
-		text-decoration: line-through; 
+		text-decoration: line-through;
 		color: $gray-300;
 	}
 }
@@ -334,4 +334,3 @@ body {
 		width: 100%;
 	}
 }
-
