@@ -1,11 +1,10 @@
-pragma solidity ^0.4.18;
+pragma solidity ^0.5.15;
 
 import "./StandardToken.sol";
 import "./Ownable.sol";
 
 contract StandardTokenWithFees is StandardToken, Ownable {
 
-  // Additional variables for use if transaction fees ever became necessary
   uint256 public basisPointsRate = 0;
   uint256 public maximumFee = 0;
   uint256 constant MAX_SETTABLE_BASIS_POINTS = 20;
@@ -18,7 +17,7 @@ contract StandardTokenWithFees is StandardToken, Ownable {
 
   uint public constant MAX_UINT = 2**256 - 1;
 
-  function calcFee(uint _value) constant returns (uint) {
+  function calcFee(uint _value) public view returns (uint) {
     uint fee = (_value.mul(basisPointsRate)).div(10000);
     if (fee > maximumFee) {
         fee = maximumFee;
@@ -49,26 +48,25 @@ contract StandardTokenWithFees is StandardToken, Ownable {
     if (allowed[_from][msg.sender] < MAX_UINT) {
         allowed[_from][msg.sender] = allowed[_from][msg.sender].sub(_value);
     }
-    Transfer(_from, _to, sendAmount);
+    emit Transfer(_from, _to, sendAmount);
     if (fee > 0) {
       balances[owner] = balances[owner].add(fee);
-      Transfer(_from, owner, fee);
+      emit Transfer(_from, owner, fee);
     }
     return true;
   }
 
   function setParams(uint newBasisPoints, uint newMaxFee) public onlyOwner {
-      // Ensure transparency by hardcoding limit beyond which fees can never be added
       require(newBasisPoints < MAX_SETTABLE_BASIS_POINTS);
       require(newMaxFee < MAX_SETTABLE_FEE);
 
       basisPointsRate = newBasisPoints;
       maximumFee = newMaxFee.mul(uint(10)**decimals);
 
-      Params(basisPointsRate, maximumFee);
+      emit Params(basisPointsRate, maximumFee);
   }
 
-  // Called if contract ever adds fees
   event Params(uint feeBasisPoints, uint maxFee);
+  
+ }
 
-}

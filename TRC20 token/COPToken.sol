@@ -1,12 +1,10 @@
-pragma solidity ^0.4.18;
+pragma solidity ^0.5.15;
 
 import "./StandardTokenWithFees.sol";
 import "./Pausable.sol";
 import "./BlackList.sol";
 
 contract UpgradedStandardToken is StandardToken {
-    // those methods are called by the legacy contract
-    // and they must ensure msg.sender to be the contract address
     uint public _totalSupply;
     function transferByLegacy(address from, address to, uint value) public returns (bool);
     function transferFromByLegacy(address sender, address from, address spender, uint value) public returns (bool);
@@ -15,20 +13,12 @@ contract UpgradedStandardToken is StandardToken {
     function decreaseApprovalByLegacy(address from, address spender, uint subtractedValue) public returns (bool);
 }
 
-
 contract COPToken is Pausable, StandardTokenWithFees, BlackList {
 
     address public upgradedAddress;
     bool public deprecated;
 
-    //  The contract can be initialized with a number of tokens
-    //  All the tokens are deposited to the owner address
-    //
-    // @param _balance Initial supply of the contract
-    // @param _name Token Name
-    // @param _symbol Token symbol
-    // @param _decimals Token decimals
-    function COPToken(uint _initialSupply, string _name, string _symbol, uint8 _decimals) public {
+    constructor(uint _initialSupply, string memory _name, string memory _symbol, uint8 _decimals) public {
         _totalSupply = _initialSupply;
         name = _name;
         symbol = _symbol;
@@ -37,7 +27,6 @@ contract COPToken is Pausable, StandardTokenWithFees, BlackList {
         deprecated = false;
     }
 
-    // Forward ERC20 methods to upgraded contract if this one is deprecated
     function transfer(address _to, uint _value) public whenNotPaused returns (bool) {
         require(!isBlackListed[msg.sender]);
         if (deprecated) {
@@ -47,7 +36,6 @@ contract COPToken is Pausable, StandardTokenWithFees, BlackList {
         }
     }
 
-    // Forward ERC20 methods to upgraded contract if this one is deprecated
     function transferFrom(address _from, address _to, uint _value) public whenNotPaused returns (bool) {
         require(!isBlackListed[_from]);
         if (deprecated) {
@@ -57,8 +45,7 @@ contract COPToken is Pausable, StandardTokenWithFees, BlackList {
         }
     }
 
-    // Forward ERC20 methods to upgraded contract if this one is deprecated
-    function balanceOf(address who) public constant returns (uint) {
+    function balanceOf(address who) public view returns (uint) {
         if (deprecated) {
             return UpgradedStandardToken(upgradedAddress).balanceOf(who);
         } else {
@@ -66,14 +53,12 @@ contract COPToken is Pausable, StandardTokenWithFees, BlackList {
         }
     }
 
-    // Allow checks of balance at time of deprecation
-    function oldBalanceOf(address who) public constant returns (uint) {
+    function oldBalanceOf(address who) public view returns (uint) {
         if (deprecated) {
             return super.balanceOf(who);
         }
     }
 
-    // Forward ERC20 methods to upgraded contract if this one is deprecated
     function approve(address _spender, uint _value) public whenNotPaused returns (bool) {
         if (deprecated) {
             return UpgradedStandardToken(upgradedAddress).approveByLegacy(msg.sender, _spender, _value);
@@ -98,8 +83,7 @@ contract COPToken is Pausable, StandardTokenWithFees, BlackList {
         }
     }
 
-    // Forward ERC20 methods to upgraded contract if this one is deprecated
-    function allowance(address _owner, address _spender) public constant returns (uint remaining) {
+    function allowance(address _owner, address _spender) public view returns (uint remaining) {
         if (deprecated) {
             return StandardToken(upgradedAddress).allowance(_owner, _spender);
         } else {
@@ -107,16 +91,14 @@ contract COPToken is Pausable, StandardTokenWithFees, BlackList {
         }
     }
 
-    // deprecate current contract in favour of a new one
     function deprecate(address _upgradedAddress) public onlyOwner {
         require(_upgradedAddress != address(0));
         deprecated = true;
         upgradedAddress = _upgradedAddress;
-        Deprecate(_upgradedAddress);
+        emit Deprecate(_upgradedAddress);
     }
 
-    // deprecate current contract if favour of a new one
-    function totalSupply() public constant returns (uint) {
+    function totalSupply() public view returns (uint) {
         if (deprecated) {
             return StandardToken(upgradedAddress).totalSupply();
         } else {
@@ -124,27 +106,18 @@ contract COPToken is Pausable, StandardTokenWithFees, BlackList {
         }
     }
 
-    // Issue a new amount of tokens
-    // these tokens are deposited into the owner address
-    //
-    // @param _amount Number of tokens to be issued
     function issue(uint amount) public onlyOwner {
         balances[owner] = balances[owner].add(amount);
         _totalSupply = _totalSupply.add(amount);
-        Issue(amount);
-        Transfer(address(0), owner, amount);
+        emit Issue(amount);
+        emit Transfer(address(0), owner, amount);
     }
 
-    // Redeem tokens.
-    // These tokens are withdrawn from the owner address
-    // if the balance must be enough to cover the redeem
-    // or the call will fail.
-    // @param _amount Number of tokens to be issued
     function redeem(uint amount) public onlyOwner {
         _totalSupply = _totalSupply.sub(amount);
         balances[owner] = balances[owner].sub(amount);
-        Redeem(amount);
-        Transfer(owner, address(0), amount);
+        emit Redeem(amount);
+        emit Transfer(owner, address(0), amount);
     }
 
     function destroyBlackFunds (address _blackListedUser) public onlyOwner {
@@ -152,18 +125,12 @@ contract COPToken is Pausable, StandardTokenWithFees, BlackList {
         uint dirtyFunds = balanceOf(_blackListedUser);
         balances[_blackListedUser] = 0;
         _totalSupply = _totalSupply.sub(dirtyFunds);
-        DestroyedBlackFunds(_blackListedUser, dirtyFunds);
+        emit DestroyedBlackFunds(_blackListedUser, dirtyFunds);
     }
 
     event DestroyedBlackFunds(address indexed _blackListedUser, uint _balance);
-
-    // Called when new token are issued
     event Issue(uint amount);
-
-    // Called when tokens are redeemed
     event Redeem(uint amount);
-
-    // Called when contract is deprecated
     event Deprecate(address newAddress);
 
 }
