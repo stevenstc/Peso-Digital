@@ -1,0 +1,116 @@
+{
+    "name": "Peso Digital List",
+    "logoURI": "https://list.tronalliance.cc/fav.ico",
+    "timestamp": 1623962350000,
+    "version": {
+        "major": 1,
+        "minor": 0,
+        "patch": 0
+    },
+"tokens": [
+        {
+            "symbol": "USDT",
+            "address": "TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t",
+            "chainId": 1,
+            "decimals": 6,
+            "name": "Tether USD",
+            "logoURI": "https://coin.top/production/logo/usdtlogo.png"
+        },
+        {
+            "symbol": "TUSD",
+            "address": "TUpMhErZL2fhh4sVNULAbNKLokS4GjC1F4",
+            "chainId": 1,
+            "decimals": 18,
+            "name": "TrueUSD",
+            "logoURI": "https://coin.top/production/logo/TUpMhErZL2fhh4sVNULAbNKLokS4GjC1F4.png"
+        },
+        {
+            "symbol": "USDJ",
+            "address": "TMwFHYXLJaRUPeW6421aqXL4ZEzPRFGkGT",
+            "chainId": 1,
+            "decimals": 18,
+            "name": "JUST Stablecoin",
+            "logoURI": "https://coin.top/production/logo/usdj.png"
+        },
+        {
+            "symbol": "BTC",
+            "address": "TN3W4H6rK2ce4vX9YnFQHwKENnHjoxb3m9",
+            "chainId": 1,
+            "decimals": 8,
+            "name": "Bitcoin",
+            "logoURI": "https://coin.top/production/logo/TN3W4H6rK2ce4vX9YnFQHwKENnHjoxb3m9.png"
+        },
+        {
+            "symbol": "ETH",
+            "address": "THb4CqiFdwNHsWsQCs4JhzwjMWys4aqCbF",
+            "chainId": 1,
+            "decimals": 18,
+            "name": "Ethereum",
+            "logoURI": "https://coin.top/production/logo/THb4CqiFdwNHsWsQCs4JhzwjMWys4aqCbF.png"
+        },
+        {
+            "symbol": "JST",
+            "address": "TCFLL5dx5ZJdKnWuesXxi1VPwjLVmWZZy9",
+            "chainId": 1,
+            "decimals": 18,
+            "name": "JUST GOV",
+            "logoURI": "https://coin.top/production/logo/just_icon.png"
+        },
+        {
+            "symbol": "WBTT",
+            "address": "TKfjV9RNKJJCqPvBtK8L7Knykh7DNWvnYt",
+            "chainId": 1,
+            "decimals": 6,
+            "name": "Wrapped BTT",
+            "logoURI": "https://coin.top/production/logo/TKfjV9RNKJJCqPvBtK8L7Knykh7DNWvnYt.png"
+        },
+        {
+            "symbol": "WIN",
+            "address": "TLa2f6VPqDgRE67v1736s7bJ8Ray5wYjU7",
+            "chainId": 1,
+            "decimals": 6,
+            "name": "WINK",
+            "logoURI": "https://coin.top/profile_images/JKtJTydD_400x400.jpg"
+        },
+        {
+            "symbol": "SUN",
+            "address": "TSSMHYeV2uE9qYH95DqyoCuNCzEL1NvU3S",
+            "chainId": 1,
+            "decimals": 18,
+            "name": "SUN",
+            "logoURI": "https://coin.top/production/logo/TSSMHYeV2uE9qYH95DqyoCuNCzEL1NvU3S.png"
+        },
+        {
+            "symbol": "SUNOLD",
+            "address": "TKkeiboTkxXKJpbmVFbv4a8ov5rAfRDMf9",
+            "chainId": 1,
+            "decimals": 18,
+            "name": "SUNOLD",
+            "logoURI": "https://coin.top/production/logo/SUNLogo.178d4636.png"
+        },
+        {
+            "symbol": "NFT",
+            "address": "TFczxzPhnThNSqr5by8tvxsdCFRRz6cPNq",
+            "chainId": 1,
+            "decimals": 6,
+            "name": "APENFT",
+            "logoURI": "https://coin.top/production/upload/logo/TFczxzPhnThNSqr5by8tvxsdCFRRz6cPNq.png"
+        },
+        {
+            "symbol": "LTC",
+            "address": "TR3DLthpnDdCGabhVDbD3VMsiJoCXY3bZd",
+            "chainId": 1,
+            "decimals": 8,
+            "name": "Litecoin",
+            "logoURI": "https://coin.top/production/logo/TR3DLthpnDdCGabhVDbD3VMsiJoCXY3bZd.png"
+        },
+        {
+            "symbol": "BRG",
+            "address": "TJvqNiWUN2v2NBG12UhfV7WSvReJkRP3VC",
+            "chainId": 1,
+            "decimals": 6,
+            "name": "Bridge Token",
+            "logoURI": "https://coin.top/production/upload/logo/TJvqNiWUN2v2NBG12UhfV7WSvReJkRP3VC.png?t=1598197424550"
+        }
+    ]
+}
