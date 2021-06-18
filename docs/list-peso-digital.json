@@ -5,7 +5,7 @@
     "version": {
         "major": 1,
         "minor": 1,
-        "patch": 1
+        "patch": 2
     },
 "tokens": [
         {
@@ -49,28 +49,12 @@
             "logoURI": "https://coin.top/production/logo/THb4CqiFdwNHsWsQCs4JhzwjMWys4aqCbF.png"
         },
         {
-            "symbol": "JST",
-            "address": "TCFLL5dx5ZJdKnWuesXxi1VPwjLVmWZZy9",
+            "symbol": "LTC",
+            "address": "TR3DLthpnDdCGabhVDbD3VMsiJoCXY3bZd",
             "chainId": 1,
-            "decimals": 18,
-            "name": "JUST GOV",
-            "logoURI": "https://coin.top/production/logo/just_icon.png"
-        },
-        {
-            "symbol": "WBTT",
-            "address": "TKfjV9RNKJJCqPvBtK8L7Knykh7DNWvnYt",
-            "chainId": 1,
-            "decimals": 6,
-            "name": "Wrapped BTT",
-            "logoURI": "https://coin.top/production/logo/TKfjV9RNKJJCqPvBtK8L7Knykh7DNWvnYt.png"
-        },
-        {
-            "symbol": "WIN",
-            "address": "TLa2f6VPqDgRE67v1736s7bJ8Ray5wYjU7",
-            "chainId": 1,
-            "decimals": 6,
-            "name": "WINK",
-            "logoURI": "https://coin.top/profile_images/JKtJTydD_400x400.jpg"
+            "decimals": 8,
+            "name": "Litecoin",
+            "logoURI": "https://coin.top/production/logo/TR3DLthpnDdCGabhVDbD3VMsiJoCXY3bZd.png"
         },
         {
             "symbol": "SUN",
@@ -97,20 +81,28 @@
             "logoURI": "https://coin.top/production/upload/logo/TFczxzPhnThNSqr5by8tvxsdCFRRz6cPNq.png"
         },
         {
-            "symbol": "LTC",
-            "address": "TR3DLthpnDdCGabhVDbD3VMsiJoCXY3bZd",
+            "symbol": "JST",
+            "address": "TCFLL5dx5ZJdKnWuesXxi1VPwjLVmWZZy9",
             "chainId": 1,
-            "decimals": 8,
-            "name": "Litecoin",
-            "logoURI": "https://coin.top/production/logo/TR3DLthpnDdCGabhVDbD3VMsiJoCXY3bZd.png"
+            "decimals": 18,
+            "name": "JUST GOV",
+            "logoURI": "https://coin.top/production/logo/just_icon.png"
         },
         {
-            "symbol": "BRG",
-            "address": "TJvqNiWUN2v2NBG12UhfV7WSvReJkRP3VC",
+            "symbol": "WBTT",
+            "address": "TKfjV9RNKJJCqPvBtK8L7Knykh7DNWvnYt",
             "chainId": 1,
             "decimals": 6,
-            "name": "Bridge Token",
-            "logoURI": "https://coin.top/production/upload/logo/TJvqNiWUN2v2NBG12UhfV7WSvReJkRP3VC.png"
+            "name": "Wrapped BTT",
+            "logoURI": "https://coin.top/production/logo/TKfjV9RNKJJCqPvBtK8L7Knykh7DNWvnYt.png"
+        },
+        {
+            "symbol": "WIN",
+            "address": "TLa2f6VPqDgRE67v1736s7bJ8Ray5wYjU7",
+            "chainId": 1,
+            "decimals": 6,
+            "name": "WINK",
+            "logoURI": "https://coin.top/profile_images/JKtJTydD_400x400.jpg"
         },
         {
             "symbol": "SITE",
@@ -135,6 +127,14 @@
             "decimals": 17,
             "name": "Bitcoin Standard Hashrate Token",
             "logoURI": "https://coin.top/production/logo/TFVge5Nb6or8cpdtdwPuXSGqLHpj3PM9Rp.png"
+        },
+        {
+            "symbol": "BRG",
+            "address": "TJvqNiWUN2v2NBG12UhfV7WSvReJkRP3VC",
+            "chainId": 1,
+            "decimals": 6,
+            "name": "Bridge Token",
+            "logoURI": "https://coin.top/production/upload/logo/TJvqNiWUN2v2NBG12UhfV7WSvReJkRP3VC.png"
         }
     ]
 }
