@@ -1,11 +1,11 @@
 {
     "name": "Peso Digital List",
     "logoURI": "https://pesodigital.ml/images/lista-pesodigital.jpg",
-    "timestamp": 1623963040000,
+    "timestamp": 1623982782000,
     "version": {
         "major": 1,
-        "minor": 0,
-        "patch": 0
+        "minor": 1,
+        "patch": 1
     },
 "tokens": [
         {
@@ -110,7 +110,31 @@
             "chainId": 1,
             "decimals": 6,
             "name": "Bridge Token",
-            "logoURI": "https://coin.top/production/upload/logo/TJvqNiWUN2v2NBG12UhfV7WSvReJkRP3VC.png?t=1598197424550"
+            "logoURI": "https://coin.top/production/upload/logo/TJvqNiWUN2v2NBG12UhfV7WSvReJkRP3VC.png"
+        },
+        {
+            "symbol": "SITE",
+            "address": "TDDkSxfkN5DbqXK3tHSZFXRMcT9aS6m9qz",
+            "chainId": 1,
+            "decimals": 8,
+            "name": "SITE",
+            "logoURI": "https://coin.top/production/upload/logo/TDDkSxfkN5DbqXK3tHSZFXRMcT9aS6m9qz.png"
+        },
+        {
+            "symbol": "BXR",
+            "address": "TDC6poUXyvUE1o8nQEbxyL1umKPKeRUTGg",
+            "chainId": 1,
+            "decimals": 8,
+            "name": "Bitxor",
+            "logoURI": "https://coin.top/production/upload/logo/TDC6poUXyvUE1o8nQEbxyL1umKPKeRUTGg.jpeg"
+        },
+        {
+            "symbol": "BTCST",
+            "address": "TFVge5Nb6or8cpdtdwPuXSGqLHpj3PM9Rp",
+            "chainId": 1,
+            "decimals": 17,
+            "name": "Bitcoin Standard Hashrate Token",
+            "logoURI": "https://coin.top/production/logo/TFVge5Nb6or8cpdtdwPuXSGqLHpj3PM9Rp.png"
         }
     ]
 }
