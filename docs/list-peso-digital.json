@@ -1,11 +1,11 @@
 {
     "name": "Peso Digital List",
     "logoURI": "https://pesodigital.ml/images/lista-pesodigital.jpg",
-    "timestamp": 1623982782000,
+    "timestamp": 1625687256000,
     "version": {
         "major": 1,
-        "minor": 1,
-        "patch": 2
+        "minor": 2,
+        "patch": 3
     },
 "tokens": [
         {
@@ -31,6 +31,14 @@
             "decimals": 18,
             "name": "JUST Stablecoin",
             "logoURI": "https://coin.top/production/logo/usdj.png"
+        },
+        {
+            "symbol": "USDC",
+            "address": "TEkxiTehnzSmSe2XqrBj4w32RUN966rdz8",
+            "chainId": 1,
+            "decimals": 6,
+            "name": "USD Coin",
+            "logoURI": "https://coin.top/production/upload/logo/TEkxiTehnzSmSe2XqrBj4w32RUN966rdz81.png"
         },
         {
             "symbol": "BTC",
