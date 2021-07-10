@@ -3,7 +3,7 @@
     "logoURI": "https://pesodigital.ml/images/logo-blanco.png",
     "timestamp": 1625936194000,
     "version": {
-        "major": 1,
+        "major": 2,
         "minor": 3,
         "patch": 4
     },
@@ -127,14 +127,6 @@
             "decimals": 8,
             "name": "Bitxor",
             "logoURI": "https://coin.top/production/upload/logo/TDC6poUXyvUE1o8nQEbxyL1umKPKeRUTGg.jpeg"
-        },
-        {
-            "symbol": "ORB",
-            "address": "TGJ31V8B9WC6Ew6v9Q68NAZfQV7BpRLoxq",
-            "chainId": 1,
-            "decimals": 8,
-            "name": "Orbita",
-            "logoURI": "https://coin.top/production/upload/logo/TGJ31V8B9WC6Ew6v9Q68NAZfQV7BpRLoxq.png"
         },
         {
             "symbol": "BTCST",
