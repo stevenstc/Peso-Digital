@@ -1,11 +1,11 @@
 {
     "name": "Peso Digital List",
     "logoURI": "https://pesodigital.ml/images/logo-blanco.png",
-    "timestamp": 1626294419000,
+    "timestamp": 1626484734000,
     "version": {
         "major": 2,
         "minor": 4,
-        "patch": 4
+        "patch": 5
     },
 "tokens": [
         {
@@ -126,7 +126,7 @@
             "chainId": 1,
             "decimals": 8,
             "name": "Bitxor",
-            "logoURI": "https://coin.top/production/upload/logo/TDC6poUXyvUE1o8nQEbxyL1umKPKeRUTGg.jpeg"
+            "logoURI": "https://coin.top/production/upload/logo/TDC6poUXyvUE1o8nQEbxyL1umKPKeRUTGg.png"
         },
         {
             "symbol": "OBR",
