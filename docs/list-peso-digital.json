@@ -3,7 +3,7 @@
     "logoURI": "https://pesodigital.ml/images/logo-blanco.png",
     "timestamp": 1626484734000,
     "version": {
-        "major": 2,
+        "major": 3,
         "minor": 4,
         "patch": 5
     },
@@ -73,14 +73,6 @@
             "logoURI": "https://coin.top/production/logo/TSSMHYeV2uE9qYH95DqyoCuNCzEL1NvU3S.png"
         },
         {
-            "symbol": "SUNOLD",
-            "address": "TKkeiboTkxXKJpbmVFbv4a8ov5rAfRDMf9",
-            "chainId": 1,
-            "decimals": 18,
-            "name": "SUNOLD",
-            "logoURI": "https://coin.top/production/logo/SUNLogo.178d4636.png"
-        },
-        {
             "symbol": "NFT",
             "address": "TFczxzPhnThNSqr5by8tvxsdCFRRz6cPNq",
             "chainId": 1,
@@ -97,12 +89,12 @@
             "logoURI": "https://coin.top/production/logo/just_icon.png"
         },
         {
-            "symbol": "WBTT",
-            "address": "TKfjV9RNKJJCqPvBtK8L7Knykh7DNWvnYt",
+            "symbol": "BTT",
+            "address": "TAFjULxiVgT4qWk6UZwjqwZXTSaGaqnVp4",
             "chainId": 1,
-            "decimals": 6,
-            "name": "Wrapped BTT",
-            "logoURI": "https://coin.top/production/logo/TKfjV9RNKJJCqPvBtK8L7Knykh7DNWvnYt.png"
+            "decimals": 18,
+            "name": "BitTorrent",
+            "logoURI": "https://coin.top/production/logo/1002000.png"
         },
         {
             "symbol": "WIN",
@@ -127,30 +119,6 @@
             "decimals": 8,
             "name": "Bitxor",
             "logoURI": "https://coin.top/production/upload/logo/TDC6poUXyvUE1o8nQEbxyL1umKPKeRUTGg.png"
-        },
-        {
-            "symbol": "OBR",
-            "address": "TGJ31V8B9WC6Ew6v9Q68NAZfQV7BpRLoxq",
-            "chainId": 1,
-            "decimals": 8,
-            "name": "Orbita",
-            "logoURI": "https://coin.top/production/upload/logo/TGJ31V8B9WC6Ew6v9Q68NAZfQV7BpRLoxq.png"
-        },
-        {
-            "symbol": "BTCST",
-            "address": "TFVge5Nb6or8cpdtdwPuXSGqLHpj3PM9Rp",
-            "chainId": 1,
-            "decimals": 17,
-            "name": "Bitcoin Standard Hashrate Token",
-            "logoURI": "https://coin.top/production/logo/TFVge5Nb6or8cpdtdwPuXSGqLHpj3PM9Rp.png"
-        },
-        {
-            "symbol": "BRG",
-            "address": "TJvqNiWUN2v2NBG12UhfV7WSvReJkRP3VC",
-            "chainId": 1,
-            "decimals": 6,
-            "name": "Bridge Token",
-            "logoURI": "https://coin.top/production/upload/logo/TJvqNiWUN2v2NBG12UhfV7WSvReJkRP3VC.png"
         }
     ]
 }
