@@ -1,11 +1,11 @@
 {
     "name": "Peso Digital List",
     "logoURI": "https://pesodigital.ml/images/logo-blanco.png",
-    "timestamp": 1639790681000,
+    "timestamp": 1643124144000,
     "version": {
         "major": 3,
-        "minor": 4,
-        "patch": 5
+        "minor": 5,
+        "patch": 0
     },
 "tokens": [
         {
@@ -103,6 +103,14 @@
             "decimals": 6,
             "name": "WINK",
             "logoURI": "https://coin.top/profile_images/JKtJTydD_400x400.jpg"
+        },
+        {
+            "symbol": "DOGE",
+            "address": "THbVQp8kMjStKNnf2iCY6NEzThKMK5aBHg",
+            "chainId": 1,
+            "decimals": 8,
+            "name": "Dogecoin",
+            "logoURI": "https://coin.top/production/upload/logo/THbVQp8kMjStKNnf2iCY6NEzThKMK5aBHg.png"
         },
         {
             "symbol": "SITE",
