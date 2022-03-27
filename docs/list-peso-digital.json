@@ -1,11 +1,11 @@
 {
     "name": "Brutus Coin List",
     "logoURI": "https://brutustoken.com/assets/img/fabicon.png",
-    "timestamp": 1648399743000,
+    "timestamp": 1648400040000,
     "version": {
         "major": 3,
         "minor": 6,
-        "patch": 0
+        "patch": 1
     },
 "tokens": [
         {
@@ -126,7 +126,7 @@
             "chainId": 1,
             "decimals": 6,
             "name": "Brutus Tron Staking",
-            "logoURI": "https://coin.top/production/upload/logo/TF8YgHqnJdWzCbUyouje3RYrdDKJYpGfB3.png"
+            "logoURI": "https://coin.top/production/upload/logo/TF8YgHqnJdWzCbUyouje3RYrdDKJYpGfB3.jpeg"
         },
         {
             "symbol": "SITE",
