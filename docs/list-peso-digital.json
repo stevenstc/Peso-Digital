@@ -1,10 +1,10 @@
 {
-    "name": "Peso Digital List",
-    "logoURI": "https://pesodigital.ml/images/logo-blanco.png",
-    "timestamp": 1643124144000,
+    "name": "Brutus Coin List",
+    "logoURI": "https://brutustoken.com/assets/img/fabicon.png",
+    "timestamp": 1648399743000,
     "version": {
         "major": 3,
-        "minor": 5,
+        "minor": 6,
         "patch": 0
     },
 "tokens": [
@@ -111,6 +111,22 @@
             "decimals": 8,
             "name": "Dogecoin",
             "logoURI": "https://coin.top/production/upload/logo/THbVQp8kMjStKNnf2iCY6NEzThKMK5aBHg.png"
+        },
+        {
+            "symbol": "BRUT",
+            "address": "TMnV9TeTFDUKmZR3ZQsMfd362hofvcFnqi",
+            "chainId": 1,
+            "decimals": 6,
+            "name": "Brutus Token",
+            "logoURI": "https://coin.top/production/upload/logo/TMnV9TeTFDUKmZR3ZQsMfd362hofvcFnqi.png"
+        },
+        {
+            "symbol": "BRST",
+            "address": "TF8YgHqnJdWzCbUyouje3RYrdDKJYpGfB3",
+            "chainId": 1,
+            "decimals": 6,
+            "name": "Brutus Tron Staking",
+            "logoURI": "https://coin.top/production/upload/logo/TF8YgHqnJdWzCbUyouje3RYrdDKJYpGfB3.png"
         },
         {
             "symbol": "SITE",
