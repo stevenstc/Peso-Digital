@@ -1,9 +1,9 @@
 {
     "name": "Brutus Token List",
     "logoURI": "https://brutustoken.com/assets/img/fabicon.png",
-    "timestamp": 1648402232000,
+    "timestamp": 1648402536000,
     "version": {
-        "major": 3,
+        "major": 4,
         "minor": 6,
         "patch": 2
     },
@@ -127,22 +127,6 @@
             "decimals": 6,
             "name": "Brutus Tron Staking",
             "logoURI": "https://coin.top/production/upload/logo/TF8YgHqnJdWzCbUyouje3RYrdDKJYpGfB3.jpeg"
-        },
-        {
-            "symbol": "SITE",
-            "address": "TDDkSxfkN5DbqXK3tHSZFXRMcT9aS6m9qz",
-            "chainId": 1,
-            "decimals": 8,
-            "name": "SITE",
-            "logoURI": "https://coin.top/production/upload/logo/TDDkSxfkN5DbqXK3tHSZFXRMcT9aS6m9qz.png"
-        },
-        {
-            "symbol": "BXR",
-            "address": "TDC6poUXyvUE1o8nQEbxyL1umKPKeRUTGg",
-            "chainId": 1,
-            "decimals": 8,
-            "name": "Bitxor",
-            "logoURI": "https://coin.top/production/upload/logo/TDC6poUXyvUE1o8nQEbxyL1umKPKeRUTGg.png"
         }
     ]
 }
