@@ -1,11 +1,11 @@
 {
     "name": "Brutus Token List",
     "logoURI": "https://brutustoken.com/assets/img/fabicon.png",
-    "timestamp": 1648400040000,
+    "timestamp": 1648402232000,
     "version": {
         "major": 3,
         "minor": 6,
-        "patch": 1
+        "patch": 2
     },
 "tokens": [
         {
