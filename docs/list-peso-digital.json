@@ -108,14 +108,6 @@
             "logoURI": "https://coin.top/profile_images/JKtJTydD_400x400.jpg"
         },
         {
-            "symbol": "DOGE",
-            "address": "THbVQp8kMjStKNnf2iCY6NEzThKMK5aBHg",
-            "chainId": 1,
-            "decimals": 8,
-            "name": "Dogecoin",
-            "logoURI": "https://coin.top/production/upload/logo/THbVQp8kMjStKNnf2iCY6NEzThKMK5aBHg.png"
-        },
-        {
             "symbol": "BRUT",
             "address": "TLGhEHUevHsfExxm4miyMxfmT5xumNr4BU",
             "chainId": 1,
@@ -133,7 +125,7 @@
         }
     ],
     "version": {
-        "major": 4,
+        "major": 5,
         "minor": 8,
         "patch": 3
     }
