@@ -1,13 +1,8 @@
 {
     "name": "Brutus Token List",
     "logoURI": "https://brutustoken.com/assets/img/fabicon.png",
-    "timestamp": 1649617020000,
-    "version": {
-        "major": 4,
-        "minor": 7,
-        "patch": 2
-    },
-"tokens": [
+    "timestamp": 1649617701000,
+    "tokens": [
         {
             "symbol": "USDT",
             "address": "TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t",
@@ -15,14 +10,6 @@
             "decimals": 6,
             "name": "Tether USD",
             "logoURI": "https://coin.top/production/logo/usdtlogo.png"
-        },
-        {
-            "symbol": "TUSD",
-            "address": "TUpMhErZL2fhh4sVNULAbNKLokS4GjC1F4",
-            "chainId": 1,
-            "decimals": 18,
-            "name": "TrueUSD",
-            "logoURI": "https://coin.top/production/logo/TUpMhErZL2fhh4sVNULAbNKLokS4GjC1F4.png"
         },
         {
             "symbol": "USDJ",
@@ -39,6 +26,14 @@
             "decimals": 6,
             "name": "USD Coin",
             "logoURI": "https://coin.top/production/upload/logo/TEkxiTehnzSmSe2XqrBj4w32RUN966rdz81.png"
+        },
+        {
+            "symbol": "TUSD",
+            "address": "TUpMhErZL2fhh4sVNULAbNKLokS4GjC1F4",
+            "chainId": 1,
+            "decimals": 18,
+            "name": "TrueUSD",
+            "logoURI": "https://coin.top/production/logo/TUpMhErZL2fhh4sVNULAbNKLokS4GjC1F4.png"
         },
         {
             "symbol": "BTC",
@@ -63,6 +58,14 @@
             "decimals": 8,
             "name": "Litecoin",
             "logoURI": "https://coin.top/production/logo/TR3DLthpnDdCGabhVDbD3VMsiJoCXY3bZd.png"
+        },
+        {
+            "symbol": "DOGE",
+            "address": "THbVQp8kMjStKNnf2iCY6NEzThKMK5aBHg",
+            "chainId": 1,
+            "decimals": 8,
+            "name": "Dogecoin",
+            "logoURI": "https://coin.top/production/upload/logo/THbVQp8kMjStKNnf2iCY6NEzThKMK5aBHg.png"
         },
         {
             "symbol": "SUN",
@@ -128,5 +131,10 @@
             "name": "Brutus Tron Staking",
             "logoURI": "https://coin.top/production/upload/logo/TF8YgHqnJdWzCbUyouje3RYrdDKJYpGfB3.jpeg"
         }
-    ]
+    ],
+    "version": {
+        "major": 4,
+        "minor": 8,
+        "patch": 3
+    }
 }
