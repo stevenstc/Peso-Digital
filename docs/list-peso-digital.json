@@ -1,10 +1,10 @@
 {
     "name": "Brutus Token List",
     "logoURI": "https://brutustoken.com/assets/img/fabicon.png",
-    "timestamp": 1648402536000,
+    "timestamp": 1649617020000,
     "version": {
         "major": 4,
-        "minor": 6,
+        "minor": 7,
         "patch": 2
     },
 "tokens": [
@@ -114,11 +114,11 @@
         },
         {
             "symbol": "BRUT",
-            "address": "TMnV9TeTFDUKmZR3ZQsMfd362hofvcFnqi",
+            "address": "TLGhEHUevHsfExxm4miyMxfmT5xumNr4BU",
             "chainId": 1,
             "decimals": 6,
             "name": "Brutus Token",
-            "logoURI": "https://coin.top/production/upload/logo/TMnV9TeTFDUKmZR3ZQsMfd362hofvcFnqi.png"
+            "logoURI": "https://coin.top/production/upload/logo/TLGhEHUevHsfExxm4miyMxfmT5xumNr4BU.png"
         },
         {
             "symbol": "BRST",
