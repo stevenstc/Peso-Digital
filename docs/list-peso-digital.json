@@ -1,7 +1,12 @@
 {
     "name": "Brutus Token List",
     "logoURI": "https://brutustoken.com/assets/img/fabicon.png",
-    "timestamp": 1649618094000,
+    "timestamp": 1649620793000,
+    "version": {
+        "major": 5,
+        "minor": 9,
+        "patch": 4
+    },
     "tokens": [
         {
             "symbol": "USDT",
@@ -123,10 +128,5 @@
             "name": "Brutus Tron Staking",
             "logoURI": "https://coin.top/production/upload/logo/TF8YgHqnJdWzCbUyouje3RYrdDKJYpGfB3.jpeg"
         }
-    ],
-    "version": {
-        "major": 5,
-        "minor": 8,
-        "patch": 3
-    }
+    ]
 }
